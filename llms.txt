@@ -25,12 +25,12 @@
 - [BinGi Hotel Management System](https://mejbaurbahar.github.io/sofoftech-modern/case-studies.html): Multi-property PMS, real-time inventory channel manager, dynamic pricing, and automated guest onboarding.
 
 ## Key Leadership
-- **Fahim Iqbal**: Head of Management & Operations (`iqbalfahim80@gmail.com`)
-- **Md. Zobaidul Karim**: Managing Director & Co-Founder (`zkrony001@gmail.com`)
-- **Mejbaur Bahar Fagun**: Lead SQA Engineer (`fagun115946@gmail.com`)
-- **Ab Hamid**: Technical Project Manager (`hamidweb07@gmail.com`)
-- **Jobayer Sheikh**: DevOps Engineer (`jobayersheikhbd@gmail.com`)
-- **Shahriar Sajib**: Lead Frontend Developer (`sajib.shahariar97@gmail.com`)
+- **Fahim Iqbal**: Head of Management & Operations
+- **Md. Zobaidul Karim**: Managing Director & Co-Founder
+- **Mejbaur Bahar Fagun**: Lead SQA Engineer
+- **Ab Hamid**: Technical Project Manager
+- **Jobayer Sheikh**: DevOps Engineer
+- **Shahriar Sajib**: Lead Frontend Developer
 
 ## Official Links
 - [Homepage](https://mejbaurbahar.github.io/sofoftech-modern/index.html)
