@@ -63,16 +63,14 @@
       </a>
 
       <!-- Desktop Nav -->
-      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#16151D]">
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-[#16151D]">
         <a href="index.html" class="text-[#28aae1] font-semibold">Home</a>
         <a href="about.html" class="hover:text-[#28aae1] transition-colors">About</a>
         <a href="services.html" class="hover:text-[#28aae1] transition-colors">Services</a>
         <a href="case-studies.html" class="hover:text-[#28aae1] transition-colors">Projects</a>
         <a href="the-model.html" class="hover:text-[#28aae1] transition-colors">The Sofof Model</a>
-
-        <!-- Inside SOFOF Tab -->
+        <a href="career.html" class="hover:text-[#28aae1] transition-colors">Careers</a>
         <a href="inside-sofof.html" class="hover:text-[#28aae1] transition-colors py-1">Inside SOFOF</a>
-
         <a href="contact.html" class="hover:text-[#28aae1] transition-colors">Contact</a>
       </nav>
 
@@ -98,6 +96,7 @@
       <a href="services.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Services</a>
       <a href="case-studies.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Projects</a>
       <a href="the-model.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">The Sofof Model</a>
+      <a href="career.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Careers</a>
       <a href="inside-sofof.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Inside SOFOF</a>
       <a href="contact.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Contact</a>
       <div class="pt-2">
@@ -153,16 +152,16 @@
           <div class="relative w-full max-w-[540px] mx-auto">
             
             <div class="relative aspect-[560/476] w-full overflow-hidden rounded-2xl border border-[#E8E8EE] bg-[#F4F4F6] shadow-[0_10px_30px_-8px_rgba(22,21,29,0.12)] sm:rounded-[24px]">
-              <img src="./assets/hero-team.webp" alt="SOFOF TECH engineering team" class="w-full h-full object-cover">
+              <img src="./assets/hero-team.webp" alt="SOFOF TECH engineering team" class="w-full h-full object-cover" fetchpriority="high" width="560" height="476">
             </div>
 
             <!-- Floating Badge: Senior Developers -->
             <div class="absolute -top-4 -left-4 sm:-left-8 bg-white/95 backdrop-blur-md border border-[#E8E8EE] rounded-2xl p-3 sm:p-4 shadow-[0_8px_25px_rgba(22,21,29,0.08)] flex items-center gap-3 animate-float">
               <div class="flex -space-x-2 overflow-hidden">
-                <img src="https://ca.slack-edge.com/T06M86UTCPQ-U06MTFH5XED-d5fb5ea3b3ba-192" alt="Fahim" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" title="Fahim - Head of Management">
-                <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0BTPDSHTA8-58af987153be-192" alt="Fagun" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" title="Mejbaur Bahar Fagun - Lead SQA">
-                <img src="https://ca.slack-edge.com/T06M86UTCPQ-U095QGXL9JS-171968ac4d66-192" alt="Sajib" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" title="Sajib - Lead Developer">
-                <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0855V2D9MG-f44b4a52c0bf-192" alt="Rihan" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" title="Rihan - Mobile Developer">
+                <img src="./assets/team/fahim.jpg" alt="Fahim" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" width="36" height="36" title="Fahim - Head of Management" loading="lazy" decoding="async">
+                <img src="./assets/team/fagun.jpg" alt="Fagun" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" width="36" height="36" title="Mejbaur Bahar Fagun - Lead SQA" loading="lazy" decoding="async">
+                <img src="./assets/team/sajib.jpg" alt="Sajib" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" width="36" height="36" title="Sajib - Lead Developer" loading="lazy" decoding="async">
+                <img src="./assets/team/rihan.jpg" alt="Rihan" class="w-9 h-9 rounded-full object-cover border-2 border-white shadow-sm" width="36" height="36" title="Rihan - Mobile Developer" loading="lazy" decoding="async">
               </div>
               <div>
                 <span class="block text-xs sm:text-sm font-bold text-[#16151D]">Core Engineering Pod</span>
@@ -386,7 +385,7 @@
         <!-- Project 1: Qatarat -->
         <div class="bg-white border border-[#E8E8EE] rounded-2xl overflow-hidden hover-lift flex flex-col justify-between reveal">
           <div class="relative aspect-[16/10] bg-slate-100 overflow-hidden">
-            <img src="./assets/qatarat.webp" alt="Qatarat" class="w-full h-full object-cover">
+            <img src="./assets/qatarat.webp" alt="Qatarat" class="w-full h-full object-cover" loading="lazy" decoding="async">
             <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-[#28aae1] text-white shadow-sm">
               Mobile App
             </span>
@@ -408,7 +407,7 @@
         <!-- Project 2: Salam Pay -->
         <div class="bg-white border border-[#E8E8EE] rounded-2xl overflow-hidden hover-lift flex flex-col justify-between reveal delay-100">
           <div class="relative aspect-[16/10] bg-slate-100 overflow-hidden">
-            <img src="./assets/salampay.png" alt="Salam Pay" class="w-full h-full object-cover">
+            <img src="./assets/salampay.webp" alt="Salam Pay" class="w-full h-full object-cover" loading="lazy" decoding="async">
             <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-[#28aae1] text-white shadow-sm">
               Mobile App
             </span>
@@ -430,7 +429,7 @@
         <!-- Project 3: Ihsan AI -->
         <div class="bg-white border border-[#E8E8EE] rounded-2xl overflow-hidden hover-lift flex flex-col justify-between reveal delay-200">
           <div class="relative aspect-[16/10] bg-slate-100 overflow-hidden">
-            <img src="./assets/ai.png" alt="Ihsan AI" class="w-full h-full object-cover">
+            <img src="./assets/ai.webp" alt="Ihsan AI" class="w-full h-full object-cover" loading="lazy" decoding="async">
             <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-[#28aae1] text-white shadow-sm">
               AI Application
             </span>
@@ -452,7 +451,7 @@
         <!-- Project 4: ProWhats -->
         <div class="bg-white border border-[#E8E8EE] rounded-2xl overflow-hidden hover-lift flex flex-col justify-between reveal">
           <div class="relative aspect-[16/10] bg-slate-100 overflow-hidden">
-            <img src="./assets/prowhats.png" alt="ProWhats" class="w-full h-full object-cover">
+            <img src="./assets/prowhats.webp" alt="ProWhats" class="w-full h-full object-cover" loading="lazy" decoding="async">
             <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-[#28aae1] text-white shadow-sm">
               Web Application
             </span>
@@ -474,7 +473,7 @@
         <!-- Project 5: Digital Twin -->
         <div class="bg-white border border-[#E8E8EE] rounded-2xl overflow-hidden hover-lift flex flex-col justify-between reveal delay-100">
           <div class="relative aspect-[16/10] bg-slate-100 overflow-hidden">
-            <img src="./assets/ttt.png" alt="Digital Twin" class="w-full h-full object-cover">
+            <img src="./assets/ttt.webp" alt="Digital Twin" class="w-full h-full object-cover" loading="lazy" decoding="async">
             <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-[#28aae1] text-white shadow-sm">
               AI Application
             </span>
@@ -496,7 +495,7 @@
         <!-- Project 6: Smart Execution -->
         <div class="bg-white border border-[#E8E8EE] rounded-2xl overflow-hidden hover-lift flex flex-col justify-between reveal delay-200">
           <div class="relative aspect-[16/10] bg-slate-100 overflow-hidden">
-            <img src="./assets/Smart.png" alt="Smart Execution" class="w-full h-full object-cover">
+            <img src="./assets/Smart.webp" alt="Smart Execution" class="w-full h-full object-cover" loading="lazy" decoding="async">
             <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-[#28aae1] text-white shadow-sm">
               Web Application
             </span>
@@ -547,7 +546,7 @@
         
         <!-- Photo 1: Full Team -->
         <a href="inside-sofof.html" class="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-100 border-2 border-[#28aae1]/40 shadow-sm hover:shadow-xl transition-all duration-300 block reveal">
-          <img src="./assets/culture/full_team_real.jpeg" alt="SOFOF TECH Full Team" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <img src="./assets/culture/full_team_real.jpeg" alt="SOFOF TECH Full Team" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
             <span class="text-[11px] font-bold text-[#28aae1]">FULL TEAM</span>
             <h4 class="text-sm font-bold">SOFOF TECH Gathering</h4>
@@ -556,7 +555,7 @@
 
         <!-- Photo 2: QA Team -->
         <a href="inside-sofof.html" class="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-100 border-2 border-[#28aae1]/40 shadow-sm hover:shadow-xl transition-all duration-300 block reveal delay-100">
-          <img src="./assets/culture/qa_team_real.jpeg" alt="QA Team" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <img src="./assets/culture/qa_team_real.jpeg" alt="QA Team" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
             <span class="text-[11px] font-bold text-[#28aae1]">ENGINEERING POD</span>
             <h4 class="text-sm font-bold">QA Testing Team</h4>
@@ -565,7 +564,7 @@
 
         <!-- Photo 3: Tour 2025 Cox's Bazar -->
         <a href="inside-sofof.html" class="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-100 border border-[#E8E8EE] shadow-sm hover:shadow-xl transition-all duration-300 block reveal delay-200">
-          <img src="./assets/culture/tour_coxsbazar_2025.jpeg" alt="Cox's Bazar Tour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <img src="./assets/culture/tour_coxsbazar_2025.jpeg" alt="Cox's Bazar Tour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
             <span class="text-[11px] font-bold text-[#28aae1]">ANNUAL RETREAT 2025</span>
             <h4 class="text-sm font-bold">Cox's Bazar Expedition</h4>
@@ -574,7 +573,7 @@
 
         <!-- Photo 4: Tour 2025 Sitakundo -->
         <a href="inside-sofof.html" class="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-100 border border-[#E8E8EE] shadow-sm hover:shadow-xl transition-all duration-300 block reveal delay-300">
-          <img src="./assets/culture/tour_sitakundo_2025.jpeg" alt="Sitakundo Tour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <img src="./assets/culture/tour_sitakundo_2025.jpeg" alt="Sitakundo Tour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-4 text-white">
             <span class="text-[11px] font-bold text-[#28aae1]">ANNUAL RETREAT 2025</span>
             <h4 class="text-sm font-bold">Sitakundo Views</h4>
@@ -801,6 +800,7 @@
             <li><a href="services.html" class="hover:text-[#28aae1] transition-colors">Services</a></li>
             <li><a href="case-studies.html" class="hover:text-[#28aae1] transition-colors">Projects</a></li>
             <li><a href="the-model.html" class="hover:text-[#28aae1] transition-colors">The Sofof Model</a></li>
+            <li><a href="career.html" class="hover:text-[#28aae1] transition-colors">Careers</a></li>
             <li><a href="inside-sofof.html" class="hover:text-[#28aae1] transition-colors">Inside SOFOF</a></li>
             <li><a href="contact.html" class="hover:text-[#28aae1] transition-colors">Contact</a></li>
           </ul>
