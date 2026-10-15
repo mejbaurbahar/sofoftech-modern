@@ -1,0 +1,14 @@
+# QA verification screenshots
+/*_verified*.png
+/*_preview*.png
+/*_viewport*.png
+/*_same_to_same*.png
+/*_real_photos*.png
+assets/screenshot-*.png
+
+# System & editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

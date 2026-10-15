@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — Our Story, Vision & Team | SOFOF TECH</title>
+  <meta name="description" content="Learn about SOFOF TECH IT FARM. High-impact software development and AI engineering partner headquartered in Dhaka, delivering to global enterprises.">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Roboto', '"Plus Jakarta Sans"', 'sans-serif'] },
+          colors: {
+            brand: { DEFAULT: '#28aae1', 50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 500: '#28aae1' },
+            dark: { DEFAULT: '#16151D', surface: '#1E1C27', muted: '#5E5B6B', border: '#E8E8EE', bgLight: '#FAFAFC' }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-white text-[#16151D] font-sans antialiased selection:bg-[#28aae1] selection:text-white">
+
+  <!-- Floating WhatsApp CTA (DevxHub Signature Pulse) -->
+  <a href="https://wa.me/8801782037090" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#20ba59] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:scale-110 active:scale-95 transition-all animate-whatsapp-ripple" title="Chat on WhatsApp">
+    <svg class="w-7 h-7 fill-white" viewBox="0 0 24 24"><path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.996.586 3.86 1.602 5.438L2.3 21.7l4.408-1.265a10.02 10.02 0 005.323 1.596c5.536 0 10.031-4.495 10.031-10.031S17.567 2 12.031 2zm0 18.362a8.318 8.318 0 01-4.428-1.268l-.317-.189-2.617.751.75-2.548-.207-.33a8.318 8.318 0 01-1.479-4.747c0-4.606 3.756-8.362 8.362-8.362 4.606 0 8.362 3.756 8.362 8.362 0 4.606-3.756 8.362-8.362 8.362zm4.582-6.242c-.251-.126-1.485-.733-1.716-.816-.23-.084-.398-.126-.566.126-.168.251-.649.816-.795.984-.147.168-.293.189-.544.063-.251-.126-1.06-.391-2.019-1.246-.746-.666-1.25-1.488-1.396-1.74-.147-.251-.016-.387.11-.512.113-.113.251-.293.377-.44.126-.147.168-.251.251-.419.084-.168.042-.314-.021-.44-.063-.126-.566-1.362-.775-1.865-.204-.49-.411-.423-.566-.431l-.482-.008c-.168 0-.44.063-.67.314-.23.251-.879.859-.879 2.094s.9 2.429 1.026 2.597c.126.168 1.77 2.703 4.288 3.791.599.259 1.067.414 1.433.53.602.191 1.15.164 1.583.099.483-.072 1.485-.607 1.695-1.193.21-.586.21-1.088.147-1.193-.063-.105-.231-.168-.482-.293z"/></svg>
+  </a>
+
+  <!-- Header (DevxHub Structure & Layout) -->
+  <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-[#E8E8EE] transition-all duration-200">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-3 group">
+        <img src="./assets/favicon.png" alt="SOFOF TECH Logo" class="h-9 w-auto group-hover:scale-105 transition-transform">
+        <div class="flex flex-col">
+          <span class="text-xl font-bold tracking-tight text-[#16151D] leading-none">
+            SOFOF<span class="text-[#28aae1]">TECH</span>
+          </span>
+          <span class="text-[10px] tracking-wider text-[#5E5B6B] font-semibold uppercase mt-0.5">IT FARM</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#16151D]">
+        <a href="index.html" class="hover:text-[#28aae1] transition-colors">Home</a>
+        <a href="about.html" class="text-[#28aae1] font-semibold">About</a>
+        <a href="services.html" class="hover:text-[#28aae1] transition-colors">Services</a>
+        <a href="case-studies.html" class="hover:text-[#28aae1] transition-colors">Projects</a>
+        <a href="the-model.html" class="hover:text-[#28aae1] transition-colors">The Sofof Model</a>
+        <a href="inside-sofof.html" class="hover:text-[#28aae1] transition-colors py-1">Inside SOFOF</a>
+        <a href="contact.html" class="hover:text-[#28aae1] transition-colors">Contact</a>
+      </nav>
+
+      <!-- Right Action CTA -->
+      <div class="flex items-center gap-4">
+        <a href="contact.html" class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-[#16151D] hover:bg-[#28aae1] text-white text-sm font-semibold transition-colors duration-200">
+          Get in Touch
+        </a>
+
+        <button id="mobileMenuBtn" aria-label="Toggle mobile menu" class="lg:hidden p-2 rounded-lg border border-[#E8E8EE] text-[#16151D]">
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-[#E8E8EE] bg-white px-6 py-6 space-y-4">
+      <a href="index.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Home</a>
+      <a href="about.html" class="block text-base font-bold text-[#28aae1]">About</a>
+      <a href="services.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Services</a>
+      <a href="case-studies.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Projects</a>
+      <a href="the-model.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">The Sofof Model</a>
+      <a href="inside-sofof.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Inside SOFOF</a>
+      <a href="contact.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Contact</a>
+      <div class="pt-2">
+        <a href="contact.html" class="block w-full text-center py-3 rounded-full bg-[#16151D] text-white text-sm font-semibold">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="py-20 bg-[#FAFAFC] border-b border-[#E8E8EE]">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <span class="text-xs font-mono font-bold uppercase tracking-wider text-[#28aae1] mb-3 block reveal">
+          ABOUT SOFOF TECH IT FARM
+        </span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#16151D] tracking-tight leading-tight reveal delay-100">
+          Engineered for Visionaries. <br>
+          <span class="text-[#28aae1]">Rooted in Dhaka, Delivering to the World.</span>
+        </h1>
+        <p class="mt-6 text-base sm:text-lg text-[#5E5B6B] leading-relaxed reveal delay-200">
+          Founded with a belief that elite technical talent can bridge continents, SOFOF TECH has grown into a trusted engineering partner for enterprises and scale-ups in Saudi Arabia, the United States, Europe, and Asia.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story & Mission Grid -->
+  <section class="py-24 bg-white">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        
+        <div class="space-y-6 reveal">
+          <span class="text-xs font-mono font-bold uppercase tracking-wider text-[#28aae1]">Our Journey</span>
+          <h2 class="text-3xl sm:text-4xl font-bold text-[#16151D]">
+            Not Just Building Software—Shaping the Next Frontier of AI & Engineering
+          </h2>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            At SOFOF TECH IT FARM, our mission is to eliminate the friction, latency, and astronomical expense of building high-performance software. We combine seasoned senior full-stack engineers with state-of-the-art AI tooling to compress multi-quarter roadmaps into bi-weekly production releases.
+          </p>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            From coordinating the high-stakes pilgrimage water supply of Mecca in <strong>Qatarat</strong>, to developing cardless palm biometric POS payments in <strong>Salam Pay</strong>, our team thrives when challenges are complex and downtime is unacceptable.
+          </p>
+          <div class="pt-4 flex gap-4">
+            <a href="inside-sofof.html" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#16151D] hover:bg-[#28aae1] text-white text-sm font-semibold transition">
+              <span>Inside SOFOF</span>
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="relative reveal delay-200">
+          <div class="aspect-[4/3] rounded-3xl overflow-hidden border border-[#E8E8EE] shadow-xl bg-[#FAFAFC]">
+            <img src="./assets/about-team.webp" alt="SOFOF TECH Engineering Leadership & Architectural Sprint Planning" class="w-full h-full object-cover">
+          </div>
+          <div class="absolute -bottom-6 -left-6 bg-white border border-[#E8E8EE] rounded-2xl p-6 shadow-xl max-w-xs">
+            <span class="text-3xl font-extrabold text-[#28aae1] block">100%</span>
+            <span class="text-sm font-bold text-[#16151D] mt-1 block">In-House Ownership</span>
+            <span class="text-xs text-[#5E5B6B] mt-0.5 block">No outsourced junior contractors. Only dedicated senior engineers.</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Office HQ Section -->
+  <section class="py-20 bg-[#FAFAFC] border-y border-[#E8E8EE]">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl mx-auto text-center mb-14 reveal">
+        <h2 class="text-3xl sm:text-4xl font-bold text-[#16151D]">Headquarters & Presence</h2>
+        <p class="text-sm text-[#5E5B6B] mt-3">Visit our modern development lab in the heart of Dhaka.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white border border-[#E8E8EE] rounded-2xl p-8 hover-lift reveal">
+          <div class="icon-box mb-6">
+            <svg class="w-7 h-7 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-[#16151D] mb-2">Dhaka Lab HQ</h3>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            EDB Trade Centre, 93 Kazi Nazrul Islam Ave, Dhaka 1215, Bangladesh.
+          </p>
+        </div>
+
+        <div class="bg-white border border-[#E8E8EE] rounded-2xl p-8 hover-lift reveal delay-100">
+          <div class="icon-box mb-6">
+            <svg class="w-7 h-7 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-[#16151D] mb-2">GCC & Global Coverage</h3>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Serving client enterprises across Riyadh, Mecca, Dubai, San Francisco, and London.
+          </p>
+        </div>
+
+        <div class="bg-white border border-[#E8E8EE] rounded-2xl p-8 hover-lift reveal delay-200">
+          <div class="icon-box mb-6">
+            <svg class="w-7 h-7 stroke-current fill-none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-[#16151D] mb-2">Time-Zone Overlap</h3>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Coordinated sprint shifts with 4+ hours daily live overlap across US, EU, and AST hours.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership & Core Engineering Team (Authentic Slack Employee Profiles) -->
+  <section class="py-24 bg-white border-b border-[#E8E8EE]" id="team">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mb-16 reveal">
+        <span class="text-xs font-mono font-bold uppercase tracking-wider text-[#28aae1] mb-2 block">
+          THE PEOPLE BEHIND THE CODE
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-[44px] font-bold text-[#16151D] tracking-tight leading-tight">
+          Leadership & Engineering Core
+        </h2>
+        <p class="text-[#5E5B6B] mt-3 text-base sm:text-lg">
+          Meet the dedicated managers, architects, developers, and QA engineers powering our client deliveries.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        
+        <!-- Member 1: Fahim -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U06MTFH5XED-d5fb5ea3b3ba-192" alt="Fahim" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-[#16151D] text-white text-[10px] font-semibold">Lead</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Fahim</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Head of Management</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Operations leadership, project oversight, and strategic partnership scaling across global accounts.
+          </p>
+        </div>
+
+        <!-- Member 2: Mejbaur Bahar Fagun -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-100 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0BTPDSHTA8-58af987153be-192" alt="Mejbaur Bahar Fagun" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-[#28aae1] text-white text-[10px] font-semibold">QA Lead</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Mejbaur Bahar Fagun</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Lead SQA Engineer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Autonomous test harness engineering, performance profiling, and zero-defect QA gate enforcement.
+          </p>
+        </div>
+
+        <!-- Member 3: Sajib -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-200 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U095QGXL9JS-171968ac4d66-192" alt="Sajib" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-emerald-600 text-white text-[10px] font-semibold">Lead Dev</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Sajib</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Lead Full-Stack Developer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Scalable backend architectures, distributed cloud systems, and real-time high-concurrency microservices.
+          </p>
+        </div>
+
+        <!-- Member 4: Rihan -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-300 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0855V2D9MG-f44b4a52c0bf-192" alt="Rihan" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-indigo-600 text-white text-[10px] font-semibold">Mobile</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Rihan</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Mobile App Developer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Native and Flutter mobile engineering, biometrics, hardware sensor integrations, and fluid user flows.
+          </p>
+        </div>
+
+        <!-- Member 5: Osman Bashir -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U097H4Q3W75-a4d68c5a7a9f-192" alt="Osman Bashir" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-violet-600 text-white text-[10px] font-semibold">AI Lead</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Osman Bashir</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">AI & ML Engineer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Large Language Models, computer vision pipelines, and production machine learning inference deployment.
+          </p>
+        </div>
+
+        <!-- Member 6: Md Faruk Al Mahmud -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-100 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0B7F7GMEPN-b56df7193e77-192" alt="Md Faruk Al Mahmud" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-[#16151D] text-white text-[10px] font-semibold">PM</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Md Faruk Al Mahmud</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Technical Project Lead</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Engineering sprint velocity, client milestone roadmaps, and cross-functional technical synchronization.
+          </p>
+        </div>
+
+        <!-- Member 7: Ab Hamid -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-200 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U09LGALLAT0-ce1d51a0d063-192" alt="Ab Hamid" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-[#16151D] text-white text-[10px] font-semibold">TPM</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Ab Hamid</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Technical Project Manager</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Agile scrum orchestration, developer-to-client alignment, and sprint commitments across time zones.
+          </p>
+        </div>
+
+        <!-- Member 8: Rakibul -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-300 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U09BSAM25SR-d914ca522e71-192" alt="Rakibul" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-[#28aae1] text-white text-[10px] font-semibold">SQA</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Rakibul</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Software QA Engineer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Automated regression suites, Playwright and Cypress end-to-end testing, and API contract verification.
+          </p>
+        </div>
+
+        <!-- Member 9: Solaiman Hossain -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0B14JJNVPV-ga9438597d3e-192" alt="Solaiman Hossain" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-violet-600 text-white text-[10px] font-semibold">AI Dev</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Solaiman Hossain</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">AI Engineer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Intelligent automation pipelines, neural network model fine-tuning, and structured document parsing.
+          </p>
+        </div>
+
+        <!-- Member 10: Sabbir Hossen -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-100 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U09JTPKBFQE-c604d8a13892-192" alt="Sabbir Hossen" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-emerald-600 text-white text-[10px] font-semibold">Software</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Sabbir Hossen</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Software Developer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            RESTful API microservices, database optimizations, and scalable serverless application delivery.
+          </p>
+        </div>
+
+        <!-- Member 11: Shahriar Mahmud -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-200 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0B1PSJ64N5-013f7cd22d5f-192" alt="Shahriar Mahmud" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-[#28aae1] text-white text-[10px] font-semibold">QA Eng</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Shahriar Mahmud</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Software QA Engineer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Cross-browser compatibility validation, performance stress runs, and responsive interface verification.
+          </p>
+        </div>
+
+        <!-- Member 12: Mahmudun Nabi -->
+        <div class="bg-[#FAFAFC] border border-[#E8E8EE] rounded-2xl p-6 text-center hover-lift reveal delay-300 group">
+          <div class="relative w-24 h-24 mx-auto mb-4">
+            <img src="https://ca.slack-edge.com/T06M86UTCPQ-U0AC1FEG54K-5cd732977dc6-192" alt="Mahmudun Nabi" class="w-24 h-24 rounded-2xl object-cover border-2 border-white shadow-md mx-auto group-hover:scale-105 transition-transform">
+            <span class="absolute -bottom-1.5 -right-1.5 px-2 py-0.5 rounded-full bg-[#28aae1] text-white text-[10px] font-semibold">SQA</span>
+          </div>
+          <h3 class="text-lg font-bold text-[#16151D] group-hover:text-[#28aae1] transition-colors">Mahmudun Nabi</h3>
+          <p class="text-xs font-semibold text-[#28aae1] mt-0.5">Jr. SQA Engineer</p>
+          <p class="text-xs text-[#5E5B6B] mt-2.5 leading-relaxed">
+            Exploratory testing charters, user journey validation, defect documentation, and test matrix execution.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Card -->
+  <section class="py-20 bg-white">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-[#16151D] text-white rounded-3xl p-10 sm:p-14 text-center relative overflow-hidden shadow-2xl reveal">
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Ready to Build with Our Engineering Team?</h2>
+        <p class="text-slate-300 mt-4 text-sm max-w-lg mx-auto">Schedule a direct technical consultation or send us your scope for a 24-hour proposal.</p>
+        <div class="mt-8">
+          <a href="contact.html" class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#28aae1] hover:bg-[#2092c3] text-white font-bold text-sm transition shadow-lg">
+            <span>Book a Discovery Call &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer (Authentic SOFOF TECH Data) -->
+  <footer class="bg-white border-t border-[#E8E8EE] pt-16 pb-12">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <!-- Col 1: Brand & Identity -->
+        <div class="md:col-span-1">
+          <div class="flex items-center gap-2 mb-4">
+            <img src="./assets/favicon.png" alt="SOFOF TECH Logo" class="h-8 w-auto">
+            <span class="text-lg font-bold text-[#16151D]">SOFOF<span class="text-[#28aae1]">TECH</span></span>
+          </div>
+          <p class="text-xs text-[#5E5B6B] leading-relaxed mb-4">
+            Building digital solutions that empower businesses through innovation and technology. Web, Mobile, AI, UI/UX, Cloud & DevOps.
+          </p>
+          <div class="text-[11px] text-[#8E8B99] font-mono">
+            Dhaka Lab HQ • Global Delivery
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#16151D] mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-xs text-[#5E5B6B]">
+            <li><a href="index.html" class="hover:text-[#28aae1] transition-colors">Home</a></li>
+            <li><a href="about.html" class="text-[#28aae1] font-semibold">About</a></li>
+            <li><a href="services.html" class="hover:text-[#28aae1] transition-colors">Services</a></li>
+            <li><a href="case-studies.html" class="hover:text-[#28aae1] transition-colors">Projects</a></li>
+            <li><a href="the-model.html" class="hover:text-[#28aae1] transition-colors">The Sofof Model</a></li>
+            <li><a href="inside-sofof.html" class="hover:text-[#28aae1] transition-colors">Inside SOFOF</a></li>
+            <li><a href="contact.html" class="hover:text-[#28aae1] transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contact Info -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#16151D] mb-4">Contact Info</h4>
+          <ul class="space-y-2 text-xs text-[#5E5B6B]">
+            <li class="font-semibold text-[#16151D]">EDB Trade Centre</li>
+            <li>93 Kazi Nazrul Islam Ave, Dhaka 1215</li>
+            <li><a href="mailto:info@sofoftech.com" class="hover:text-[#28aae1]">info@sofoftech.com</a></li>
+            <li><a href="tel:+8801782037090" class="hover:text-[#28aae1]">+88 01782037090</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Follow Us -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#16151D] mb-4">Connect With Us</h4>
+          <p class="text-xs text-[#5E5B6B] mb-4">Follow our engineering journey and product releases across social channels.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://www.linkedin.com/company/sofof-tech/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="LinkedIn" aria-label="LinkedIn">
+              <img src="./assets/social/linkedin.svg" alt="LinkedIn" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="Facebook" aria-label="Facebook">
+              <img src="./assets/social/facebook.svg" alt="Facebook" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="Twitter / X" aria-label="Twitter / X">
+              <img src="./assets/social/twitter.svg" alt="Twitter / X" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="GitHub" aria-label="GitHub">
+              <img src="./assets/social/github.svg" alt="GitHub" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="YouTube" aria-label="YouTube">
+              <img src="./assets/social/youtube.svg" alt="YouTube" class="w-10 h-10 aspect-square object-contain">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-[#E8E8EE] flex flex-col sm:flex-row items-center justify-between text-xs text-[#8E8B99] gap-4">
+        <span>&copy; 2026 SOFOF TECH IT FARM. All rights reserved.</span>
+        <div class="flex items-center gap-6">
+          <a href="about.html" class="hover:text-[#28aae1] transition-colors">Privacy Policy</a>
+          <a href="about.html" class="hover:text-[#28aae1] transition-colors">Terms of Service</a>
+          <a href="contact.html" class="hover:text-[#28aae1] transition-colors">Security</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

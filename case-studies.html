@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects & Case Studies — Qatarat, Salam Pay, Ihsan AI, ProWhats | SOFOF TECH IT FARM</title>
+  <meta name="description" content="Explore real projects shipped by SOFOF TECH IT FARM: Qatarat, Salam Pay, Ihsan AI, ProWhats, Digital Twin, and Smart Execution.">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sofof: {
+              cyan: '#28aae1',
+              dark: '#16151D',
+              gray: '#5E5B6B',
+              border: '#E8E8EE',
+              bgLight: '#FAFAFC',
+              cyanLight: '#f0f9ff'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-[#16151D] font-sans antialiased selection:bg-[#28aae1] selection:text-white">
+
+  <!-- Floating WhatsApp CTA (DevxHub Signature Pulse) -->
+  <a href="https://wa.me/8801782037090" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#20ba59] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:scale-110 active:scale-95 transition-all animate-whatsapp-ripple" title="Chat on WhatsApp">
+    <svg class="w-7 h-7 fill-white" viewBox="0 0 24 24"><path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.996.586 3.86 1.602 5.438L2.3 21.7l4.408-1.265a10.02 10.02 0 005.323 1.596c5.536 0 10.031-4.495 10.031-10.031S17.567 2 12.031 2zm0 18.362a8.318 8.318 0 01-4.428-1.268l-.317-.189-2.617.751.75-2.548-.207-.33a8.318 8.318 0 01-1.479-4.747c0-4.606 3.756-8.362 8.362-8.362 4.606 0 8.362 3.756 8.362 8.362 0 4.606-3.756 8.362-8.362 8.362zm4.582-6.242c-.251-.126-1.485-.733-1.716-.816-.23-.084-.398-.126-.566.126-.168.251-.649.816-.795.984-.147.168-.293.189-.544.063-.251-.126-1.06-.391-2.019-1.246-.746-.666-1.25-1.488-1.396-1.74-.147-.251-.016-.387.11-.512.113-.113.251-.293.377-.44.126-.147.168-.251.251-.419.084-.168.042-.314-.021-.44-.063-.126-.566-1.362-.775-1.865-.204-.49-.411-.423-.566-.431l-.482-.008c-.168 0-.44.063-.67.314-.23.251-.879.859-.879 2.094s.9 2.429 1.026 2.597c.126.168 1.77 2.703 4.288 3.791.599.259 1.067.414 1.433.53.602.191 1.15.164 1.583.099.483-.072 1.485-.607 1.695-1.193.21-.586.21-1.088.147-1.193-.063-.105-.231-.168-.482-.293z"/></svg>
+  </a>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-[#E8E8EE] transition-all duration-200">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <img src="./assets/favicon.png" alt="SOFOF TECH Logo" class="h-9 w-auto group-hover:scale-105 transition-transform">
+        <div class="flex flex-col">
+          <span class="text-xl font-bold tracking-tight text-[#16151D] leading-none">
+            SOFOF<span class="text-[#28aae1]">TECH</span>
+          </span>
+          <span class="text-[10px] tracking-wider text-[#5E5B6B] font-semibold uppercase mt-0.5">IT FARM</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-[#16151D]">
+        <a href="index.html" class="hover:text-[#28aae1] transition-colors">Home</a>
+        <a href="about.html" class="hover:text-[#28aae1] transition-colors">About</a>
+        <a href="services.html" class="hover:text-[#28aae1] transition-colors">Services</a>
+        <a href="case-studies.html" class="text-[#28aae1] font-semibold">Projects</a>
+        <a href="the-model.html" class="hover:text-[#28aae1] transition-colors">The Sofof Model</a>
+        <a href="inside-sofof.html" class="hover:text-[#28aae1] transition-colors py-1">Inside SOFOF</a>
+        <a href="contact.html" class="hover:text-[#28aae1] transition-colors">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <a href="contact.html" class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 rounded-full bg-[#16151D] hover:bg-[#28aae1] text-white text-sm font-semibold transition-colors duration-200">
+          Get in Touch
+        </a>
+        <button id="mobileMenuBtn" aria-label="Toggle mobile menu" class="lg:hidden p-2 rounded-lg border border-[#E8E8EE] text-[#16151D]">
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-[#E8E8EE] bg-white px-6 py-6 space-y-4">
+      <a href="index.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Home</a>
+      <a href="about.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">About</a>
+      <a href="services.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Services</a>
+      <a href="case-studies.html" class="block text-base font-bold text-[#28aae1]">Projects</a>
+      <a href="the-model.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">The Sofof Model</a>
+      <a href="inside-sofof.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Inside SOFOF</a>
+      <a href="contact.html" class="block text-base font-medium text-[#16151D] hover:text-[#28aae1]">Contact</a>
+      <div class="pt-2">
+        <a href="contact.html" class="block w-full text-center py-3 rounded-full bg-[#16151D] text-white text-sm font-semibold">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="py-20 bg-[#FAFAFC] border-b border-[#E8E8EE]">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <span class="text-xs font-mono font-bold uppercase tracking-wider text-[#28aae1] mb-3 block reveal">
+          PROVEN PORTFOLIO
+        </span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#16151D] tracking-tight leading-tight reveal delay-100">
+          Our Projects <br>
+          <span class="text-[#28aae1]">Real Software. Shipped at Scale.</span>
+        </h1>
+        <p class="mt-6 text-base sm:text-lg text-[#5E5B6B] leading-relaxed reveal delay-200">
+          Showcasing our latest work and successful collaborations — from smart Mecca logistics and biometric fintech to enterprise AI and WhatsApp automation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Projects List -->
+  <section class="py-24 bg-white">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+      
+      <!-- Project 1: Qatarat -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center reveal">
+        <div class="lg:col-span-6 aspect-[16/10] rounded-3xl overflow-hidden border border-[#E8E8EE] shadow-lg bg-slate-100">
+          <img src="./assets/qatarat.webp" alt="Qatarat" class="w-full h-full object-cover">
+        </div>
+        <div class="lg:col-span-6 space-y-4">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-[#f0f9ff] text-[#0284c7] border border-[#bae6fd]">
+            Mobile App • Logistics & IoT 🇸🇦
+          </span>
+          <h2 class="text-3xl font-bold text-[#16151D]">Qatarat — Holy Sites Water Logistics Platform</h2>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Qatarat is a tech-enabled water delivery platform serving the mosques of Mecca and surrounding communities with speed, safety, and dignity. Automated dispatch, live GPS tracking, and QR verification across high-density pilgrimage zones.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#28aae1]">1,200+</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Daily Tanker Dispatches</span>
+            </div>
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#16151D]">99.99%</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Uptime in Hajj Season</span>
+            </div>
+          </div>
+          <div class="pt-2 text-xs font-mono text-[#5E5B6B]">Stack: Flutter • Golang Microservices • PostGIS • AWS IoT Core</div>
+        </div>
+      </div>
+
+      <!-- Project 2: Salam Pay -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center reveal">
+        <div class="lg:col-span-6 lg:order-2 aspect-[16/10] rounded-3xl overflow-hidden border border-[#E8E8EE] shadow-lg bg-slate-100">
+          <img src="./assets/salampay.png" alt="Salam Pay" class="w-full h-full object-cover">
+        </div>
+        <div class="lg:col-span-6 lg:order-1 space-y-4">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-[#f0f9ff] text-[#0284c7] border border-[#bae6fd]">
+            Mobile App • Fintech & Biometrics 💳
+          </span>
+          <h2 class="text-3xl font-bold text-[#16151D]">Salam Pay — Contactless Palm Biometric Payment</h2>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Salam Pay enables secure, cardless payments with just a wave of your palm using advanced biometric authentication. Low-level sensor drivers interfaced with near-infrared vein pattern recognition and zero-knowledge template encryption.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#28aae1]">&lt; 350ms</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Auth Verification Time</span>
+            </div>
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#16151D]">99.999%</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Biometric Vein Precision</span>
+            </div>
+          </div>
+          <div class="pt-2 text-xs font-mono text-[#5E5B6B]">Stack: C++ Drivers • Python FastAPI • Next.js • Secure Enclave</div>
+        </div>
+      </div>
+
+      <!-- Project 3: Ihsan AI -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center reveal">
+        <div class="lg:col-span-6 aspect-[16/10] rounded-3xl overflow-hidden border border-[#E8E8EE] shadow-lg bg-slate-100">
+          <img src="./assets/ai.png" alt="Ihsan AI" class="w-full h-full object-cover">
+        </div>
+        <div class="lg:col-span-6 space-y-4">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-[#f0f9ff] text-[#0284c7] border border-[#bae6fd]">
+            AI Application • Enterprise GenAI 🧠
+          </span>
+          <h2 class="text-3xl font-bold text-[#16151D]">Ihsan AI — Document Intelligence & RAG Copilot</h2>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Ihsan AI is an intelligent assistant that turns documents into instant, context-rich answers using advanced retrieval-augmented generation. Custom chunking, dense-sparse vector indexing, and strict citation anchors.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#28aae1]">98.4%</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Citation Accuracy</span>
+            </div>
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#16151D]">&lt; 150ms</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">P95 Retrieval Latency</span>
+            </div>
+          </div>
+          <div class="pt-2 text-xs font-mono text-[#5E5B6B]">Stack: LangChain • Qdrant Vector DB • PyTorch • FastAPI • React</div>
+        </div>
+      </div>
+
+      <!-- Project 4: ProWhats -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center reveal">
+        <div class="lg:col-span-6 lg:order-2 aspect-[16/10] rounded-3xl overflow-hidden border border-[#E8E8EE] shadow-lg bg-slate-100">
+          <img src="./assets/prowhats.png" alt="ProWhats" class="w-full h-full object-cover">
+        </div>
+        <div class="lg:col-span-6 lg:order-1 space-y-4">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-[#f0f9ff] text-[#0284c7] border border-[#bae6fd]">
+            Web Application • Messaging Automation 💬
+          </span>
+          <h2 class="text-3xl font-bold text-[#16151D]">ProWhats — Enterprise WhatsApp Marketing & Automation</h2>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Scalable conversational platform enabling businesses to run automated WhatsApp broadcast campaigns, customer support flows, and CRM-triggered notifications with high delivery rates and live status tracking.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#28aae1]">10M+</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Dispatched Messages</span>
+            </div>
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#16151D]">99.8%</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Delivery Success</span>
+            </div>
+          </div>
+          <div class="pt-2 text-xs font-mono text-[#5E5B6B]">Stack: Node.js • WhatsApp Business API • React • Redis Queue</div>
+        </div>
+      </div>
+
+      <!-- Project 5: Digital Twin -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center reveal">
+        <div class="lg:col-span-6 aspect-[16/10] rounded-3xl overflow-hidden border border-[#E8E8EE] shadow-lg bg-slate-100">
+          <img src="./assets/ttt.png" alt="Digital Twin" class="w-full h-full object-cover">
+        </div>
+        <div class="lg:col-span-6 space-y-4">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-[#f0f9ff] text-[#0284c7] border border-[#bae6fd]">
+            AI Application • Computer Vision & Fashion 👗
+          </span>
+          <h2 class="text-3xl font-bold text-[#16151D]">Digital Twin — Virtual Fashion Experience</h2>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Transform photos and videos into personalized fashion experiences. Powered by custom diffusion pipelines, body pose estimation, and neural cloth warping for real-time virtual try-ons.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#28aae1]">Real-time</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Try-On Synthesis</span>
+            </div>
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#16151D]">Photorealistic</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Texture Rendering</span>
+            </div>
+          </div>
+          <div class="pt-2 text-xs font-mono text-[#5E5B6B]">Stack: PyTorch • Stable Diffusion • WebGL • Python FastAPI</div>
+        </div>
+      </div>
+
+      <!-- Project 6: Smart Execution -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center reveal">
+        <div class="lg:col-span-6 lg:order-2 aspect-[16/10] rounded-3xl overflow-hidden border border-[#E8E8EE] shadow-lg bg-slate-100">
+          <img src="./assets/Smart.png" alt="Smart Execution" class="w-full h-full object-cover">
+        </div>
+        <div class="lg:col-span-6 lg:order-1 space-y-4">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold bg-[#f0f9ff] text-[#0284c7] border border-[#bae6fd]">
+            Web Application • Enterprise Provisioning 🍽️
+          </span>
+          <h2 class="text-3xl font-bold text-[#16151D]">Smart Execution — Large-Scale Pilgrim Provisioning</h2>
+          <p class="text-sm text-[#5E5B6B] leading-relaxed">
+            Smart Execution is a Saudi-based catering and provisioning company specializing in large-scale meal and water services for pilgrims and events in Makkah. Real-time kitchen scheduling, inventory forecasting, and fleet compliance tracking.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#28aae1]">250,000+</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Meals Coordinated</span>
+            </div>
+            <div class="p-4 rounded-xl bg-[#FAFAFC] border border-[#E8E8EE]">
+              <span class="text-2xl font-bold text-[#16151D]">100%</span>
+              <span class="text-xs text-[#5E5B6B] block mt-1">Compliance & Safety</span>
+            </div>
+          </div>
+          <div class="pt-2 text-xs font-mono text-[#5E5B6B]">Stack: Next.js • PostgreSQL • Redis • Tailwind CSS</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Global Footer (Authentic SOFOF TECH Data) -->
+  <footer class="bg-white border-t border-[#E8E8EE] pt-16 pb-12">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <!-- Col 1: Brand & Identity -->
+        <div class="md:col-span-1">
+          <div class="flex items-center gap-2 mb-4">
+            <img src="./assets/favicon.png" alt="SOFOF TECH Logo" class="h-8 w-auto">
+            <span class="text-lg font-bold text-[#16151D]">SOFOF<span class="text-[#28aae1]">TECH</span></span>
+          </div>
+          <p class="text-xs text-[#5E5B6B] leading-relaxed mb-4">
+            Building digital solutions that empower businesses through innovation and technology. Web, Mobile, AI, UI/UX, Cloud & DevOps.
+          </p>
+          <div class="text-[11px] text-[#8E8B99] font-mono">
+            Dhaka Lab HQ • Global Delivery
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#16151D] mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-xs text-[#5E5B6B]">
+            <li><a href="index.html" class="hover:text-[#28aae1] transition-colors">Home</a></li>
+            <li><a href="about.html" class="hover:text-[#28aae1] transition-colors">About</a></li>
+            <li><a href="services.html" class="hover:text-[#28aae1] transition-colors">Services</a></li>
+            <li><a href="case-studies.html" class="text-[#28aae1] font-semibold">Projects</a></li>
+            <li><a href="the-model.html" class="hover:text-[#28aae1] transition-colors">The Sofof Model</a></li>
+            <li><a href="inside-sofof.html" class="hover:text-[#28aae1] transition-colors">Inside SOFOF</a></li>
+            <li><a href="contact.html" class="hover:text-[#28aae1] transition-colors">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Contact Info -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#16151D] mb-4">Contact Info</h4>
+          <ul class="space-y-2 text-xs text-[#5E5B6B]">
+            <li class="font-semibold text-[#16151D]">EDB Trade Centre</li>
+            <li>93 Kazi Nazrul Islam Ave, Dhaka 1215</li>
+            <li><a href="mailto:info@sofoftech.com" class="hover:text-[#28aae1]">info@sofoftech.com</a></li>
+            <li><a href="tel:+8801782037090" class="hover:text-[#28aae1]">+88 01782037090</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Follow Us -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-[#16151D] mb-4">Connect With Us</h4>
+          <p class="text-xs text-[#5E5B6B] mb-4">Follow our engineering journey and product releases across social channels.</p>
+          <div class="flex items-center gap-3">
+            <a href="https://www.linkedin.com/company/sofof-tech/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="LinkedIn" aria-label="LinkedIn">
+              <img src="./assets/social/linkedin.svg" alt="LinkedIn" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="Facebook" aria-label="Facebook">
+              <img src="./assets/social/facebook.svg" alt="Facebook" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="Twitter / X" aria-label="Twitter / X">
+              <img src="./assets/social/twitter.svg" alt="Twitter / X" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="GitHub" aria-label="GitHub">
+              <img src="./assets/social/github.svg" alt="GitHub" class="w-10 h-10 aspect-square object-contain">
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:scale-110 hover:-translate-y-0.5" title="YouTube" aria-label="YouTube">
+              <img src="./assets/social/youtube.svg" alt="YouTube" class="w-10 h-10 aspect-square object-contain">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-[#E8E8EE] flex flex-col sm:flex-row items-center justify-between text-xs text-[#8E8B99] gap-4">
+        <span>&copy; 2026 SOFOF TECH IT FARM. All rights reserved.</span>
+        <div class="flex items-center gap-6">
+          <a href="about.html" class="hover:text-[#28aae1] transition-colors">Privacy Policy</a>
+          <a href="about.html" class="hover:text-[#28aae1] transition-colors">Terms of Service</a>
+          <a href="contact.html" class="hover:text-[#28aae1] transition-colors">Security</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+/* SOFOF TECH — DevxHub Design System with SOFOF Brand Colors & Rich Animations */
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Roboto', 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #16151D;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #28aae1;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  color: #16151D;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* ========================================================
+   DEVXHUB-STYLE SCROLL REVEAL & TRANSITION SYSTEM
+   ======================================================== */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.active,
+.reveal.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-35px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-left.active,
+.reveal-left.is-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(35px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-right.active,
+.reveal-right.is-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-scale.active,
+.reveal-scale.is-revealed {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Stagger animation delays */
+.delay-75 { transition-delay: 75ms; }
+.delay-100 { transition-delay: 100ms; }
+.delay-150 { transition-delay: 150ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-250 { transition-delay: 250ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+.delay-500 { transition-delay: 500ms; }
+.delay-600 { transition-delay: 600ms; }
+
+/* Automatic stagger in grid groups */
+.stagger-group > :nth-child(1) { transition-delay: 0ms; }
+.stagger-group > :nth-child(2) { transition-delay: 80ms; }
+.stagger-group > :nth-child(3) { transition-delay: 160ms; }
+.stagger-group > :nth-child(4) { transition-delay: 240ms; }
+.stagger-group > :nth-child(5) { transition-delay: 320ms; }
+.stagger-group > :nth-child(6) { transition-delay: 400ms; }
+.stagger-group > :nth-child(7) { transition-delay: 480ms; }
+.stagger-group > :nth-child(8) { transition-delay: 560ms; }
+.stagger-group > :nth-child(9) { transition-delay: 640ms; }
+.stagger-group > :nth-child(10) { transition-delay: 720ms; }
+.stagger-group > :nth-child(11) { transition-delay: 800ms; }
+.stagger-group > :nth-child(12) { transition-delay: 880ms; }
+
+/* Continuous Keyframe Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out 1.5s infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 15px rgba(40, 170, 225, 0.2); }
+  50% { box-shadow: 0 0 30px rgba(40, 170, 225, 0.4); }
+}
+
+.pulse-glow {
+  animation: pulseGlow 3s infinite;
+}
+
+/* WhatsApp Ripple Effect (DevxHub signature pulse) */
+@keyframes whatsappRipple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6), 0 0 0 10px rgba(37, 211, 102, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0), 0 0 0 30px rgba(37, 211, 102, 0);
+  }
+}
+
+.animate-whatsapp-ripple {
+  animation: whatsappRipple 2.2s infinite;
+}
+
+/* High-Contrast Icon Box (Ensures all icons are 100% crisp and visible!) */
+.icon-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #28aae1;
+  box-shadow: 0 2px 8px rgba(40, 170, 225, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.group:hover .icon-box,
+.hover-lift:hover .icon-box {
+  background-color: #28aae1;
+  color: #ffffff;
+  border-color: #28aae1;
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(40, 170, 225, 0.25);
+}
+
+/* Hover Lift Effect */
+.hover-lift {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px -10px rgba(22, 21, 29, 0.08), 0 0 15px rgba(40, 170, 225, 0.12);
+  border-color: #28aae1 !important;
+}
+
+/* FAQ Accordion */
+.faq-item {
+  transition: all 0.25s ease;
+}
+
+.faq-item.active {
+  border-color: #28aae1 !important;
+  background-color: #f0f9ff;
+}
+
+.faq-item .faq-icon {
+  transition: transform 0.25s ease;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(45deg);
+  color: #28aae1;
+}
+
+/* Gallery image zoom on hover */
+.gallery-card img,
+.gallery-photo-item img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gallery-card:hover img,
+.gallery-photo-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Active Filter Tab */
+.filter-tab-btn.active {
+  background-color: #16151D !important;
+  color: #ffffff !important;
+  border-color: #16151D !important;
+}
