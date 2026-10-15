@@ -1,0 +1,43 @@
+# SOFOF TECH IT FARM
+
+> SOFOF TECH IT FARM is an elite software engineering company and AI innovation collective based in Dhaka, Bangladesh, delivering enterprise web systems, high-concurrency mobile apps, generative AI agents, and autonomous software QA harnesses to clients worldwide across Saudi Arabia, North America, and Europe.
+
+## Company Overview
+- **Name**: SOFOF TECH IT FARM (Sofof Tech Ltd.)
+- **Headquarters**: EDB Trade Centre, 93 Kazi Nazrul Islam Ave, Dhaka 1215, Bangladesh
+- **Contact Email**: info@sofoftech.com
+- **WhatsApp / Phone**: +880 1782-037090
+- **Website**: https://mejbaurbahar.github.io/sofoftech-modern/
+- **Team Size**: 25+ specialized in-house engineers, architects, designers, and SQA leads.
+- **Operating Philosophy**: Zero-delay asynchronous communication, transparent sprint delivery, 4+ hours daily time zone overlap with US/EU/GCC clients, and 100% in-house engineering (zero third-party subcontracting).
+
+## Core Capabilities & Services
+- [Custom Software & Web Engineering](https://mejbaurbahar.github.io/sofoftech-modern/services.html): Modern architectures with React, Next.js, Node.js, Python, Laravel, and PostgreSQL. High-throughput APIs, distributed microservices, and multi-tenant SaaS.
+- [AI & Generative Systems](https://mejbaurbahar.github.io/sofoftech-modern/services.html): Autonomous LLM-driven agents, RAG knowledge retrievers, multimodal computer vision models, fine-tuned embedding pipelines, and low-latency inference services.
+- [Mobile App Development](https://mejbaurbahar.github.io/sofoftech-modern/services.html): Flutter and native iOS/Android applications, biometric authentication (fingerprint/face matching), IoT sensor synchronization, and offline-first data sync.
+- [Software QA & Autonomous Test Harnesses](https://mejbaurbahar.github.io/sofoftech-modern/services.html): Playwright, Cypress, Jest, pytest, automated regression pipelines, load and stress testing, and zero-defect deployment gates.
+- [Cloud & DevOps Architecture](https://mejbaurbahar.github.io/sofoftech-modern/services.html): Docker, Kubernetes, AWS/GCP infrastructure as code, CI/CD automated deployment pipelines, and zero-downtime rolling releases.
+
+## Flagship Projects & Case Studies
+- [Qatarat Hajj Pilgrimage Fleet Logistics](https://mejbaurbahar.github.io/sofoftech-modern/case-studies.html): Real-time telematics, IoT tracking, and crowd movement dispatch for 2,500+ buses across Mecca, Mina, and Arafat with 99.99% uptime during peak annual pilgrimage.
+- [Salam Pay Biometric Fintech POS](https://mejbaurbahar.github.io/sofoftech-modern/case-studies.html): Microsecond NFC payment terminals, sub-second biometric face validation, offline reconciliation, and PCI-DSS compliant payment rails.
+- [Nerja AI Marketing Intelligence](https://mejbaurbahar.github.io/sofoftech-modern/case-studies.html): Multi-agent autonomous sales intelligence, intent signal discovery, and automated omnichannel voice/email outreach.
+- [BinGi Hotel Management System](https://mejbaurbahar.github.io/sofoftech-modern/case-studies.html): Multi-property PMS, real-time inventory channel manager, dynamic pricing, and automated guest onboarding.
+
+## Key Leadership
+- **Fahim Iqbal**: Head of Management & Operations (`iqbalfahim80@gmail.com`)
+- **Md. Zobaidul Karim**: Managing Director & Co-Founder (`zkrony001@gmail.com`)
+- **Mejbaur Bahar Fagun**: Lead SQA Engineer (`fagun115946@gmail.com`)
+- **Ab Hamid**: Technical Project Manager (`hamidweb07@gmail.com`)
+- **Jobayer Sheikh**: DevOps Engineer (`jobayersheikhbd@gmail.com`)
+- **Shahriar Sajib**: Lead Frontend Developer (`sajib.shahariar97@gmail.com`)
+
+## Official Links
+- [Homepage](https://mejbaurbahar.github.io/sofoftech-modern/index.html)
+- [About Us & Full Team Roster](https://mejbaurbahar.github.io/sofoftech-modern/about.html)
+- [Services Catalog](https://mejbaurbahar.github.io/sofoftech-modern/services.html)
+- [Case Studies & Client Portfolio](https://mejbaurbahar.github.io/sofoftech-modern/case-studies.html)
+- [The Sofof Model](https://mejbaurbahar.github.io/sofoftech-modern/the-model.html)
+- [Active Careers & Google Form Applications](https://mejbaurbahar.github.io/sofoftech-modern/career.html)
+- [Inside SOFOF Culture & Annual Retreats](https://mejbaurbahar.github.io/sofoftech-modern/inside-sofof.html)
+- [Contact & 24h Project Scoping](https://mejbaurbahar.github.io/sofoftech-modern/contact.html)

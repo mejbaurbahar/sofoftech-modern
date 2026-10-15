@@ -1,0 +1,43 @@
+# SOFOF TECH IT FARM — Robots & AI Crawler Rules
+# https://mejbaurbahar.github.io/sofoftech-modern/
+
+User-agent: *
+Allow: /
+Disallow: /tmp/
+Disallow: /brain/
+
+# Major Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Generative Engine Optimization (GEO) & Answer Engine Crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemaps and AI Documentation
+Sitemap: https://mejbaurbahar.github.io/sofoftech-modern/sitemap.xml
+LLM-Reference: https://mejbaurbahar.github.io/sofoftech-modern/llms.txt

@@ -33,6 +33,17 @@ h1, h2, h3, h4 {
   letter-spacing: -0.02em;
 }
 
+/* Headings inside dark containers & with explicit text-white */
+.bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4,
+[class*="bg-[#16151D]"] h1, [class*="bg-[#16151D]"] h2, [class*="bg-[#16151D]"] h3, [class*="bg-[#16151D]"] h4,
+[class*="bg-slate-900"] h1, [class*="bg-slate-900"] h2, [class*="bg-slate-900"] h3, [class*="bg-slate-900"] h4,
+[class*="bg-gray-900"] h1, [class*="bg-gray-900"] h2, [class*="bg-gray-900"] h3, [class*="bg-gray-900"] h4,
+.text-white h1, .text-white h2, .text-white h3, .text-white h4,
+h1.text-white, h2.text-white, h3.text-white, h4.text-white,
+h1.\!text-white, h2.\!text-white, h3.\!text-white, h4.\!text-white {
+  color: #ffffff !important;
+}
+
 /* ========================================================
    DEVXHUB-STYLE SCROLL REVEAL & TRANSITION SYSTEM
    ======================================================== */
