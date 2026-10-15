@@ -11,7 +11,7 @@ Next-generation, responsive web application for **SOFOF TECH IT FARM**, crafted 
 - **Services** (`services.html`): Detailed service breakdowns across Full-Stack Web Development, Native & Cross-Platform Mobile, Enterprise AI & ML Engineering, UI/UX Product Design, Cloud Architecture & DevOps, and Software Quality Assurance (QA).
 - **Projects / Case Studies** (`case-studies.html`): Qatarat Mecca Logistics, Salam Pay Biometric POS, ProWhats Automation, Digital Twin AI, Smart Execution Provisioning, and AI Voice Agent.
 - **The Sofof Model** (`the-model.html`): Dedicated Engineering Pods, Milestone-Driven Delivery, and Hybrid Partnership engagement frameworks.
-- **Inside SOFOF** (`inside-sofof.html`): 100% authentic team photo gallery featuring the Full Engineering Team, Software QA Pod, and Annual Tours across Cox's Bazar and Sitakundo with interactive fullscreen lightbox viewer (`1 / 5`).
+- **Inside SOFOF** (`inside-sofof.html`): 100% authentic team photo gallery featuring the Full Engineering Team, Software QA Pod, Safari Jeep Expeditions, Mountain Summit Treks, Hilltop Lookouts, and Annual Tours across Cox's Bazar and Sitakundo with interactive fullscreen lightbox viewer (`1 / 10`).
 - **Contact** (`contact.html`): Interactive inquiry form with direct WhatsApp click-to-chat integration, Dhaka HQ location details, and active consultation calendar.
 
 ## 🛠️ Tech Stack

@@ -190,7 +190,7 @@
       <!-- Filter Category Buttons -->
       <div class="flex flex-wrap items-center justify-center gap-3 mb-12 reveal" id="galleryFilterTabs">
         <button class="filter-tab-btn active px-6 py-2.5 rounded-full text-xs sm:text-sm font-semibold border border-[#16151D] bg-[#16151D] text-white transition-all shadow-sm" data-filter="all">
-          All Photos (<span id="countAll">5</span>)
+          All Photos (<span id="countAll">10</span>)
         </button>
         <button class="filter-tab-btn px-6 py-2.5 rounded-full text-xs sm:text-sm font-semibold border border-[#E8E8EE] bg-white text-[#5E5B6B] hover:border-[#28aae1] hover:text-[#28aae1] transition-all" data-filter="team">
           👥 Full Team (1)
@@ -199,11 +199,11 @@
           🧪 QA Team (1)
         </button>
         <button class="filter-tab-btn px-6 py-2.5 rounded-full text-xs sm:text-sm font-semibold border border-[#E8E8EE] bg-white text-[#5E5B6B] hover:border-[#28aae1] hover:text-[#28aae1] transition-all" data-filter="tour">
-          🌴 Annual Tours (3)
+          🌴 Annual Tours (8)
         </button>
       </div>
 
-      <!-- Pure Visual Photo Grid (5 Authentic Photos Only) -->
+      <!-- Pure Visual Photo Grid (10 Authentic Photos) -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="photosGrid">
         
         <!-- REAL PHOTO 1: SOFOF TECH Full Team -->
@@ -289,6 +289,96 @@
           <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
             <h3 class="text-lg font-bold">Office Tour • Sitakundo</h3>
             <p class="text-xs text-white/80 mt-1">Sitakundo Breathtaking Views & Canal • Nov 2025</p>
+            <div class="mt-3 flex items-center gap-2 text-xs font-semibold text-[#28aae1]">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
+              <span>Click to view full photo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- REAL PHOTO 6: Safari Squad & Picnic Spot -->
+        <div class="gallery-photo-item group relative aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 cursor-pointer border-2 border-[#28aae1]/40 shadow-lg hover:shadow-2xl transition-all duration-300 reveal delay-200" data-category="tour" data-index="5" data-caption="Picnic Reserve & 4x4 Safari Squad" data-location="Forest Reserve & Picnic Trail • Annual Tour Expedition">
+          <img src="./assets/culture/tour_safari_squad.jpeg" alt="SOFOF Tech Safari Squad" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute top-4 left-4 z-10">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#28aae1] text-white shadow-md">
+              🌴 Safari Squad • 4x4 Tour
+            </span>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <h3 class="text-lg font-bold">Safari Expedition Squad</h3>
+            <p class="text-xs text-white/80 mt-1">Open 4x4 Chander Gari & Tropical Forest Trail</p>
+            <div class="mt-3 flex items-center gap-2 text-xs font-semibold text-[#28aae1]">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
+              <span>Click to view full photo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- REAL PHOTO 7: Safari Forest Drive -->
+        <div class="gallery-photo-item group relative aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 cursor-pointer border-2 border-[#28aae1]/40 shadow-lg hover:shadow-2xl transition-all duration-300 reveal" data-category="tour" data-index="6" data-caption="Safari Forest Drive • Open Chander Gari" data-location="Deep Forest Trail • Team Adventure Journey">
+          <img src="./assets/culture/tour_safari_forest.jpeg" alt="SOFOF Tech Forest Safari Drive" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute top-4 left-4 z-10">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#16151D] text-white shadow-md border border-[#28aae1]">
+              🌴 Forest Safari Drive
+            </span>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <h3 class="text-lg font-bold">Canopy Forest Safari Drive</h3>
+            <p class="text-xs text-white/80 mt-1">Open-Air Jeep Journey Through Towering Rain Forests</p>
+            <div class="mt-3 flex items-center gap-2 text-xs font-semibold text-[#28aae1]">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
+              <span>Click to view full photo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- REAL PHOTO 8: Mountain Summit Trek -->
+        <div class="gallery-photo-item group relative aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 cursor-pointer border-2 border-[#28aae1]/40 shadow-lg hover:shadow-2xl transition-all duration-300 reveal delay-100" data-category="tour" data-index="7" data-caption="Mountain Summit Trek • Hill Hiking Expedition" data-location="Scenic Hilltop Trails • Team Trekking Milestone">
+          <img src="./assets/culture/tour_summit_trek.jpeg" alt="SOFOF Tech Summit Trek" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute top-4 left-4 z-10">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#28aae1] text-white shadow-md">
+              🌴 Summit Trek • Hiking
+            </span>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <h3 class="text-lg font-bold">Mountain Summit Trek</h3>
+            <p class="text-xs text-white/80 mt-1">Trekking Sticks & Panoramic Hilltop Ridgeline</p>
+            <div class="mt-3 flex items-center gap-2 text-xs font-semibold text-[#28aae1]">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
+              <span>Click to view full photo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- REAL PHOTO 9: Lush Hillside Trails -->
+        <div class="gallery-photo-item group relative aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 cursor-pointer border-2 border-[#28aae1]/40 shadow-lg hover:shadow-2xl transition-all duration-300 reveal delay-200" data-category="tour" data-index="8" data-caption="Lush Hillside Exploration • Team Trails" data-location="Scenic Rolling Hills & Greenery • Annual Retreat">
+          <img src="./assets/culture/tour_hills_greenery.jpeg" alt="SOFOF Tech Hillside Greenery" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute top-4 left-4 z-10">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#16151D] text-white shadow-md border border-[#28aae1]">
+              🌴 Rolling Hills Trail
+            </span>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <h3 class="text-lg font-bold">Lush Rolling Hills Trail</h3>
+            <p class="text-xs text-white/80 mt-1">Clay Slopes & Vibrant Green Trails Under Clear Skies</p>
+            <div class="mt-3 flex items-center gap-2 text-xs font-semibold text-[#28aae1]">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
+              <span>Click to view full photo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- REAL PHOTO 10: Hilltop Resort Selfie -->
+        <div class="gallery-photo-item group relative aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 cursor-pointer border-2 border-[#28aae1]/40 shadow-lg hover:shadow-2xl transition-all duration-300 reveal" data-category="tour" data-index="9" data-caption="Hilltop Lookout Resort • Team Memories" data-location="Mountain Lookout Deck • Annual Retreat Celebrations">
+          <img src="./assets/culture/tour_resort_selfie.jpeg" alt="SOFOF Tech Hilltop Resort Selfie" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute top-4 left-4 z-10">
+            <span class="px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#28aae1] text-white shadow-md">
+              🌴 Hilltop Resort • Selfie
+            </span>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <h3 class="text-lg font-bold">Hilltop Resort Lookout</h3>
+            <p class="text-xs text-white/80 mt-1">Team Smiles Overlooking the Mist-Covered Valley</p>
             <div class="mt-3 flex items-center gap-2 text-xs font-semibold text-[#28aae1]">
               <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/></svg>
               <span>Click to view full photo</span>
